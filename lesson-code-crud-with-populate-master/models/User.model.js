@@ -4,7 +4,7 @@ const { Schema, model } = mongoose;
 const userSchema = new Schema(
   {
     username: String,
-    posts: [{ type: Schema.Types.ObjectId, ref: 'Post' }]
+    occupation: String,
   },
   {
     timestamps: true
